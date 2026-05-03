@@ -1,7 +1,8 @@
 :root{
     --yel:rgb(255, 232, 31);
     --bl:rgb(23, 23, 23);
-    --wh:rgb(244,244,244);
+    --red:rgb(235, 33, 44);
+    
 }
 
 h1,h2,h3,h4,.h1,.h2,.h3,.h4{
@@ -12,7 +13,10 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     background-color: var(--yel);
 
 }
+.bg-red{
+    background-color: var(--red);
 
+}
 .bg-black{
     background-color: var(--bl);
 }
@@ -28,6 +32,29 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
 .color-yellow{
     color: var(--yel);
 }
+
+/* Navbar */
+.navbar{
+    height: 140px;
+    transition: 0.5s;
+}
+
+.nav-link{
+    color: var(--yel);
+    font-weight: 700;
+}
+.nav-link:hover{
+    color:white !important;
+    text-shadow: 2px 2px 5px var(--red), -2px -2px 5px var(--red);
+}
+
+.logo{
+    width: 50px;
+}
+
+
+
+/* FONT DA SISTEMARE */
 .orbitron-<uniquifier> {
   
   font-optical-sizing: auto;
