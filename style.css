@@ -1,0 +1,96 @@
+:root{
+    --yel:rgb(255, 232, 31);
+    --bl:rgb(23, 23, 23);
+    --wh:rgb(244,244,244);
+}
+
+h1,h2,h3,h4,.h1,.h2,.h3,.h4{
+    font-family: "Orbitron", sans-serif;
+}
+
+.bg-yellow{
+    background-color: var(--yel);
+
+}
+
+.bg-black{
+    background-color: var(--bl);
+}
+.bg-white{
+    background-color: var(--wh);
+}
+.color-black{
+    color: var(--bl);
+}
+.color-white{
+    color: var(--wh);
+}
+.color-yellow{
+    color: var(--yel);
+}
+.orbitron-<uniquifier> {
+  
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
