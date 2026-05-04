@@ -5,6 +5,11 @@
     
 }
 
+body{
+    background-color: var(--bl);
+    color: var(--yel);
+}
+
 h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     font-family: "Orbitron", sans-serif;
 }
@@ -52,7 +57,110 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     width: 50px;
 }
 
+.logo2{
+    width: 100px;
+    transform: rotate(42deg);
+    transition: 0.5s;
+}
 
+/* HEADER */
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://img.freepik.com/foto-gratuito/sfondo-di-iperspazio-3d-con-effetto-tunnel-di-curvatura_1048-12526.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-custom{
+    color: var(--yel);
+    background-color: var(--bl);
+    border: 2px solid var(--yel);
+    border-radius: 50px;
+    margin: 0px 15px;
+    padding: 20px 30px;
+    transition: 0.5;
+}
+
+.btn-custom:hover{
+    color: var(--bl);
+    background-color: var(--yel);
+    transform: scale(1.1);
+}
+
+/* Section */
+
+.positioned{
+    position: relative;
+    top:-150px
+}
+.col-custom{
+    padding: 10px;
+    border:2px solid var(--bl);
+    cursor: progress;
+    transition: 0.5s;
+    color: var(--bl);
+}
+.col-custom:hover{
+    transform: scale(1.1);
+    background-color: var(--bl);
+    color: var(--red);
+    border:2px solid var(--red) ;
+}
+/* NUMERI INCREMENTALI */
+
+.number{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* SWIPER */
+
+.swiper{
+    height: 600px;
+   
+}
+.card-review{
+    height: 250px;
+    width: 500px;
+    border: 2px solid var(--yel);
+    border-radius: 20px;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* ANNUNCI */
+
+/* Accordion */
+.accordion-item,.accordion-button{
+    background-color: var(--bl);
+    color: var(--yel);
+}
+.accordion-button:not(.collapsed) {
+    color: var(--red);
+    background-color: var(--bl);
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.card-custom{
+    height: 200px;
+    width: 30%;
+    border:2px solid var(--yel);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
 /* FONT DA SISTEMARE */
 .orbitron-<uniquifier> {
@@ -120,4 +228,13 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
   font-family: "Lato", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+
+
+/* Media qquery */
+@media screen and (max-width: 600px){
+    .positioned{
+        position: static;
+    }
 }
